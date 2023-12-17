@@ -58,8 +58,8 @@ response = client.chat.completions.create(
   messages=[
     {
       "role": "system",
-      "content": """ In the context of the article titled 'Understanding Language Models,' and the given text 
-      what are the different meanings of the term 'token'? How does the author use tokens to explain complex concepts? Can you recommend a concise and 
+      "content": """ In the context of the given text 
+      what is meanings of the term 'token'? How does the author use tokens to explain complex concepts? Can you recommend a concise and 
       easy-to-understand explanation of tokens in the context of text analysis?"""
      
     },
@@ -68,7 +68,7 @@ response = client.chat.completions.create(
       "content": filtered_text
     }
   ],
-  temperature=0.7,
+  temperature=0.1,
   max_tokens=200,
   top_p=1
 )
