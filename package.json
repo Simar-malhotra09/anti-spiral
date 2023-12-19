@@ -1,1 +1,19 @@
-{}
+{
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.6.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack -w --config webpack.config.js"
+  },
+  "dependencies": {
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.4.0"
+  }
+}
