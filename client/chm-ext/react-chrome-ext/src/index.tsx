@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import Options from "./options";
 
 const root = document.createElement("div");
 root.className = "container";
@@ -9,5 +10,6 @@ const rootDiv = ReactDOM.createRoot(root);
 rootDiv.render(
   <React.StrictMode>
     <App />
+    <Options />
   </React.StrictMode>
 );

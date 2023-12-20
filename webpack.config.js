@@ -4,13 +4,14 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
-    index: "./client/chm-ext/react-chrome-ext/src/index.tsx",
+    popup: "./client/chm-ext/react-chrome-ext/src/index.tsx",
+    options: "./client/chm-ext/react-chrome-ext/src/options.tsx",
   },
   mode: "production",
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.tsx$/,
         use: [
           {
             loader: "ts-loader",
@@ -32,13 +33,12 @@ module.exports = {
     new CopyPlugin({
       patterns: [{ from: "manifest.json", to: "../manifest.json" }],
     }),
-    ...getHtmlPlugins(["index"]),
+    ...getHtmlPlugins(["popup", "options"]),
   ],
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
   output: {
-    path: path.join(__dirname, "dist/js"),
     filename: "[name].js",
   },
 };
