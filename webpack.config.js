@@ -4,8 +4,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
-    popup: "./client/chm-ext/react-chrome-ext/src/index.tsx",
-    options: "./client/chm-ext/react-chrome-ext/src/options.tsx",
+    index: "./client/chm-ext/src/main.tsx",
   },
   mode: "production",
   module: {
@@ -33,7 +32,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [{ from: "manifest.json", to: "../manifest.json" }],
     }),
-    ...getHtmlPlugins(["popup", "options"]),
+    ...getHtmlPlugins(["index"]),
   ],
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
