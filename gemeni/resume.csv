@@ -1,0 +1,61 @@
+<PIL.PngImagePlugin.PngImageFile image mode=RGBA size=773x1024 at 0x1085D9950>," # Simar Malhotra
+malhotrajasimraj09@gmail.com | Website | Github
+
+## 1. Education
+- Pennsylvania State University
+Bachelor of Science in Computer Science
+Aug 2022 - Dec 2025
+Relevant Coursework:
+Intermediate C++, Java GUI, Algorithms and Data Structures, Computer Architecture, Calculus III
+
+- [Name of Institution]
+Undergraduate Researcher
+Nov 2023 - May 2024
+Goal: To contribute to a deeper understanding of how cost of living influences consumer behavior and build on prior research, on:
+- Sentiment Analysis: Fine tuning a pre-trained model and/or training a RNN, with Tensorflow to capture both long range dependencies and LSTM
+- Also may fine-tune models with data specific to HCOL/LCOL to provide actionable insights for businesses and researchers by quantifying regional disparities in consumer sentiment.
+
+- Software Engineering Intern
+Jun 2023 - Aug 2023
+Drake Software Systems
+Remote
+- Implemented automated deployment processes using Django, resulting in a 20% improvement in data retrieval efficiency.
+- Developed and optimized RESTful APIs, including the Github API, to curate a comprehensive and up-to-date list of open source alternatives to enhance user experience.
+- Drafted technical documentation, including design docs and workflow guides, for improved project clarity.
+
+## 2. Work Experience
+- [Company Name]
+Software Engineering Intern
+[Dates of Employment]
+Remote
+- Designed and implemented a Chrome extension that leverages LLMs and web APIs to boost in-browser learning by 20%.
+- Extracting and analyzing web page content with Playwright automation, reducing information overload and context switching and LLm model responses (0.7 context weight, 0.3 trained data), for a complex query resolution.
+
+- Options Pricing Engine | [Company Name]
+Quantitative Research Intern
+May 2023 - Jun 2023
+Remote
+- Implemented robust pricing calculations in C++ for a diverse range of financial instruments, including options, resulting in a 20% reduction in valuation accuracy for complex portfolios.
+- Created an efficient data management system that reduced processing time by 30% and 40% for options and fixed income products, respectively.
+- Designed a pricing engine that improved calculation efficiency, reducing processing time by 30% and demonstrating the ability to optimize code performance.
+
+- Find-OSS | [Company Name]
+Backend Software Engineer
+Apr 2023 - Present
+[Location]
+- Used Next.js, React, Tailwind CSS, Node.js, and Express.js for the development and achieved a load time of less than 2 seconds for each page while implementing responsive design, resulting in seamless user experience across various devices.
+- Integrated RESTful APIs, including the Crunchbase API and the Github API, to curate a comprehensive and up-to-date list of open source alternatives to enhance user experience.
+- Employed web scraping techniques with Python and gathered startup names and relevant information from more than 100 websites by automating the data collection process, refreshing every 24 hour.
+
+## 3. Skills & Interests
+Languages: Python, C++, Java, MySQL, MSSQL, JavaScript, HTML/CSS
+Frameworks: Tensorflow, React, Node.js, Next.js, Django
+Organizations: Chess club, Computer Science club, South-Asian cultural club
+
+## 4. Projects
+- Anti-spiral
+Dec 2022 - Present
+[Description]
+
+## 5. Additional Information
+[Additional information]"
